@@ -63,11 +63,11 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/ahsai"            // ahsai tts
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aifalse"          // 服务器监控
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aipaint"          // ai绘图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"           // 随机老婆
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/alipayvoice"      // 支付宝到账语音
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/aiwife"           // 随机老婆
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/alipayvoice"      // 支付宝到账语音
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/autowithdraw"     // 触发者撤回时也自动撤回
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baidu"            // 百度一下
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baiduaudit"       // 百度内容审核
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baidu"            // 百度一下
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baiduaudit"       // 百度内容审核
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/base16384"        // base16384加解密
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/base64gua"        // base64卦加解密
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/baseamasiro"      // base天城文加解密
@@ -79,10 +79,10 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chouxianghua"     // 说抽象话
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/chrev"            // 英文字符翻转
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/coser"            // 三次元小姐姐
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/cpstory"          // cp短打
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/cpstory"          // cp短打
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/dailynews"        // 今日早报
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/danbooru"         // DeepDanbooru二次元图标签识别
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/diana"            // 嘉心糖发病
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/danbooru"         // DeepDanbooru二次元图标签识别
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/diana"            // 嘉心糖发病
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/dish"             // 程序员做饭指南
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/drawlots"         // 多功能抽签
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/dress"            // 女装
@@ -92,9 +92,9 @@ import (
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/font"             // 渲染任意文字到图片
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/fortune"          // 运势
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/funny"            // 笑话
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin"          // 原神抽卡
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/genshin"          // 原神抽卡
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/gif"              // 制图
-	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/github"           // 搜索GitHub仓库
+	//_ "github.com/FloatTech/ZeroBot-Plugin/plugin/github"           // 搜索GitHub仓库
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/guessmusic"       // 猜歌
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/heisi"            // 黑丝
 	_ "github.com/FloatTech/ZeroBot-Plugin/plugin/hitokoto"         // 一言
@@ -226,7 +226,7 @@ func init() {
 	// 直接写死 URL 时，请更改下面第二个参数
 	url := flag.String("u", "ws://127.0.0.1:6700", "Set Url of WSClient.")
 	// 默认昵称
-	adana := flag.String("n", "椛椛", "Set default nickname.")
+	adana := flag.String("n", "凤凰机器人", "Set default nickname.")
 	prefix := flag.String("p", "/", "Set command prefix.")
 	runcfg := flag.String("c", "", "Run from config file.")
 	save := flag.String("s", "", "Save default config to file and exit.")
